@@ -52,7 +52,7 @@ def help(name,topic=''):
     message = "Feature not yet implemented, sorry. Please see the main help (message me with \'.help\')"
   print(topic)
   # send help message in whisper to user.
-  whisper(message, name)
+  sendmsg(message)
 
 def main():
   joinchan(channel)
